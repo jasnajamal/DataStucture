@@ -12,7 +12,7 @@ void enqueue(int item)
 	  		front=0;
 	  	rear=rear+1;
 	  	Q[rear]=item;
-	  	printf("%d is Enqueued Successfull\n");
+	  	printf("%d is Enqueued Successfully\n");
 	  }
 }
 void dequeue( )
@@ -25,7 +25,7 @@ void dequeue( )
 	else
 	{
 		int item=Q[front];
-		printf("The Dequeued Item is %d\n",item);
+		printf("%d is Enqueued Successfully\n",item);
 		if(front>rear)
 			front=rear=-1;
 		else

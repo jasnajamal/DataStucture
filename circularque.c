@@ -27,7 +27,7 @@ void dequeue()
         	return;
 	}
     	int item = Q[front];
-  	printf("The Dequeued Item is %d\n", item);
+  	printf("%d is Dequeued Successfully\n", item);
     	if (front == rear) 
     	{
     		front = rear = -1;
